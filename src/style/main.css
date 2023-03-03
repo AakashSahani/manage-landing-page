@@ -11,7 +11,13 @@
 		box-shadow: theme('boxShadow.md');
 		border-radius: theme('borderRadius.full');
 	}
-	.button:hover {
-		cursor: pointer;
+	.bullet {
+		background-color: theme('backgroundColor.veryPaleRed');
+		gap: theme('gap.2');
+		height: theme('height.12');
+		border-radius: theme('borderRadius.full');
+		display: flex;
+		align-items: center;
+		font-weight: bold;
 	}
 }

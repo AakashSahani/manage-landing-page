@@ -26,7 +26,9 @@
 					<li><a href="#">Careers</a></li>
 					<li><a href="#">Community</a></li>
 				</ul>
-				<a href="/getstarted" title="Go to Sign up page">Get Started</a>
+				<a href="/getstarted" class="button" title="Go to Sign up page"
+					>Get Started</a
+				>
 			</nav>
 			<nav class="flex sm:hidden">
 				<div>
@@ -38,8 +40,12 @@
 				</div>
 			</nav>
 		</header>
-		<section class="flex flex-col-reverse h-fit">
-			<div class="">
+		<section
+			class="flex flex-col-reverse justify-center items-center px-4 h-fit w-full mb-14"
+		>
+			<div
+				class="flex flex-col justify-evenly items-center w-full text-center gap-5"
+			>
 				<h1 class="text-4xl font-bold">
 					Bring everyone together to build better products.
 				</h1>
@@ -51,16 +57,15 @@
 					>Get Started</a
 				>
 			</div>
-			<div>
-				<img
-					src="./images/illustration-intro.svg"
-					alt="Intro section illustration about graphs, statistics and charts."
-				/>
-			</div>
+			<img
+				src="./images/illustration-intro.svg"
+				alt="Intro section illustration about graphs, statistics and charts."
+				class="w-full h-auto object-cover mx-auto"
+			/>
 		</section>
-		<section>
-			<div>
-				<h2>What's different about Manage?</h2>
+		<section class="my-14">
+			<div class="text-center px-4 gap-4 h-fit flex flex-col my-10">
+				<h2 class="font-bold text-3xl">What's different about Manage?</h2>
 				<p>
 					Manage provides all the functionality your team needs, without the
 					complexity. Our software is tailor-made for modern digital product
@@ -69,96 +74,120 @@
 			</div>
 			<div>
 				<ul>
-					<li>
-						<span class="button">01</span>
-						<div>
-							<h3>Track company-wide progress</h3>
-							<p>
-								See how your day-to-day tasks fit into the wider vision. Go from
-								tracking progress at the milestone level all the way done to the
-								smallest of details. Never lose sight of the bigger picture
-								again.
-							</p>
-						</div>
+					<li class="ml-4 my-10">
+						<h3 class="bullet">
+							<span class="button">01</span>
+							Track company-wide progress
+						</h3>
+						<p class="mt-4">
+							See how your day-to-day tasks fit into the wider vision. Go from
+							tracking progress at the milestone level all the way done to the
+							smallest of details. Never lose sight of the bigger picture again.
+						</p>
 					</li>
-					<li>
-						<span class="button">02</span>
-						<div>
-							<h3>Advanced built-in reports</h3>
-							<p>
-								Set internal delivery estimates and track progress toward
-								company goals. Our customisable dashboard helps you build out
-								the reports you need to keep key stakeholders informed.
-							</p>
-						</div>
+					<li class="ml-4 my-10">
+						<h3 class="bullet">
+							<span class="button">02</span>
+							Advanced built-in reports
+						</h3>
+						<p class="mt-4">
+							Set internal delivery estimates and track progress toward company
+							goals. Our customisable dashboard helps you build out the reports
+							you need to keep key stakeholders informed.
+						</p>
 					</li>
-					<li>
-						<span class="button">03</span>
-						<div>
-							<h3>Everything you need in one place</h3>
-							<p>
-								Stop jumping from one service to another to communicate, store
-								files, track tasks and share documents. Manage offers an
-								all-in-one team productivity solution.
-							</p>
-						</div>
+					<li class="ml-4 my-10">
+						<h3 class="bullet">
+							<span class="button">03</span>
+							Everything you need in one place
+						</h3>
+						<p class="mt-4">
+							Stop jumping from one service to another to communicate, store
+							files, track tasks and share documents. Manage offers an
+							all-in-one team productivity solution.
+						</p>
 					</li>
 				</ul>
 			</div>
 		</section>
-		<section>
-			<h3>What they've said</h3>
+		<section class="flex flex-col justify-center items-center text-center">
+			<h3 class="font-bold text-3xl my-10">What they've said</h3>
 			<div>
-				<div>
-					<img
-						src="./images/avatar-anisha.png"
-						alt="Profile picture of Anisha Li"
-					/>
-					<h4>Anisha Li</h4>
-					<p>
+				<div
+					class="bg-veryLightGray my-20 shadow-sm w-11/12 mx-auto flex flex-col justify-center items-center h-fit"
+				>
+					<div class="w-20 mx-auto my-0 -translate-y-1/2">
+						<img
+							src="./images/avatar-anisha.png"
+							alt="Profile picture of Anisha Li"
+							class="w-full h-auto object-cover"
+						/>
+					</div>
+					<h4 class="font-bold">Anisha Li</h4>
+					<p class="py-10">
 						"Manage has supercharged our team's workflow. The ability to
 						maintain visibility on larger milestones at all times keeps everyone
 						motivated."
 					</p>
 				</div>
-				<div>
-					<img src="./images/avatar-ali.png" alt="Profile picture of ali" />
-					<h4>Ali Bravo</h4>
-					<p>
-						"We have been able to cancel so many other subcriptions since using
-						Manage. There is no more cross-channel confusion and everyone is
-						much more focused."
+				<div
+					class="bg-veryLightGray my-20 shadow-sm w-11/12 mx-auto flex flex-col justify-center items-center h-fit"
+				>
+					<div class="w-20 mx-auto my-0 -translate-y-1/2">
+						<img
+							src="./images/avatar-anisha.png"
+							alt="Profile picture of Anisha Li"
+							class="w-full h-auto object-cover"
+						/>
+					</div>
+					<h4 class="font-bold">Anisha Li</h4>
+					<p class="py-10">
+						"Manage has supercharged our team's workflow. The ability to
+						maintain visibility on larger milestones at all times keeps everyone
+						motivated."
 					</p>
 				</div>
-				<div>
-					<img
-						src="./images/avatar-richard.png"
-						alt="Profile picture of Richard Watts"
-					/>
-					<h4>Richard Watts</h4>
-					<p>
-						"Manage allows us to provide structure and process. It keeps us
-						organized and focused. I can't stop recommending them to everyone I
-						talk to!"
+				<div
+					class="bg-veryLightGray my-20 shadow-sm w-11/12 mx-auto flex flex-col justify-center items-center h-fit"
+				>
+					<div class="w-20 mx-auto my-0 -translate-y-1/2">
+						<img
+							src="./images/avatar-anisha.png"
+							alt="Profile picture of Anisha Li"
+							class="w-full h-auto object-cover"
+						/>
+					</div>
+					<h4 class="font-bold">Anisha Li</h4>
+					<p class="py-10">
+						"Manage has supercharged our team's workflow. The ability to
+						maintain visibility on larger milestones at all times keeps everyone
+						motivated."
 					</p>
 				</div>
-				<div>
-					<img
-						src="./images/avatar-shanai.png"
-						alt="Profile picture of Shanai Gough"
-					/>
-					<h4>Shanai Gough</h4>
-					<p>
-						"Their software allows us to track, manage and collaborate on our
-						projects from anywhere. It keeps the whole team in-sync wihout being
-						intrusive."
+				<div
+					class="bg-veryLightGray my-20 shadow-sm w-11/12 mx-auto flex flex-col justify-center items-center h-fit"
+				>
+					<div class="w-20 mx-auto my-0 -translate-y-1/2">
+						<img
+							src="./images/avatar-anisha.png"
+							alt="Profile picture of Anisha Li"
+							class="w-full h-auto object-cover"
+						/>
+					</div>
+					<h4 class="font-bold">Anisha Li</h4>
+					<p class="py-10">
+						"Manage has supercharged our team's workflow. The ability to
+						maintain visibility on larger milestones at all times keeps everyone
+						motivated."
 					</p>
 				</div>
 			</div>
 		</section>
-		<section class="section-d">
-			<h3>Ready To Build Your Community?</h3>
-			<button class="button">Get Started</button>
+		<section
+			class="py-20 px-4 flex flex-col justify-center text-center items-center gap-8 bg-brightRed text-white"
+		>
+			<h3 class="font-bold text-4xl">Simplify how your team works today.</h3>
+			<button class="button bg-white text-brightRed">Get Started</button>
 		</section>
 		<!-- 
 		<footer>
